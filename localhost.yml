@@ -16,7 +16,7 @@
       shell: iptables-save
 
   roles:
-    - { role: tomcat, tomcat_url: "http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.55/bin/apache-tomcat-7.0.55.tar.gz", tomcat_version: "7.0.55", tomcat_app: "https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war" }
+    - { role: tomcat, tomcat_url: "http://www.us.apache.org/dist/tomcat/tomcat-7/v7.0.56/bin/apache-tomcat-7.0.56.tar.gz", tomcat_version: "7.0.56", tomcat_app: "https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war" }
 
   post_tasks:
     - name: Starting monit
