@@ -3,7 +3,6 @@
   gather_facts: no
   user: "root"
   serial: 1
-  sudo: yes
 
   pre_tasks:
     - name: Stopping monit
