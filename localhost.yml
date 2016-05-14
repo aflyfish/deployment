@@ -4,5 +4,7 @@
   user: "root"
   serial: 1
 
+  tasks: 
+
   - name: test for pull
     shell: echo "1234" > /tmp/test.txt
