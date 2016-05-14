@@ -1,9 +1,8 @@
 - name: Provisioning tomcat server
   hosts: "all"
   gather_facts: no
-  user: "ec2-user"
+  user: "root"
   serial: 1
-  sudo: yes
 
   pre_tasks:
     - name: Stopping monit
