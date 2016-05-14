@@ -2,7 +2,7 @@
   hosts: "all"
   gather_facts: yes
   user: "root"
-  serial: 1
+  serial: 2
 
   tasks: 
 
